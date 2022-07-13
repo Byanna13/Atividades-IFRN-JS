@@ -9,7 +9,7 @@ const Tab = createBottomTabNavigator();
 export default () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName='Index'>
+      <Tab.Navigator initialRouteName='Cep'>
         <Tab.Screen name='Index' component={Index} />
         <Tab.Screen name='Cep' component={Cep} />
       </Tab.Navigator>
