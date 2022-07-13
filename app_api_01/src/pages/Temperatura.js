@@ -18,6 +18,7 @@ export default props => {
       <TextInput placeholder='Digite a Cidade' onChangeText={setTemp} />
       <Button title='Pesquisar' onPress={buscarTemp} />
       <Text>Temperatura: {tempResultado.temperature} </Text>
+      <Text>Vento: {tempResultado.wind} </Text>
     </View>
   )
 }

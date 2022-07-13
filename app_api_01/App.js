@@ -10,7 +10,7 @@ const Tab = createBottomTabNavigator();
 export default () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName='Cep'>
+      <Tab.Navigator initialRouteName='Temperatura'>
         <Tab.Screen name='Index' component={Index} />
         <Tab.Screen name='Cep' component={Cep} />
         <Tab.Screen name='Temperatura' component={Temperatura} />
