@@ -45,8 +45,10 @@ export default () => {
         listar();
     }
 
+    //async function cadastrar(){
     function cadastrar(){
         //setDoc(doc(db, "contatos", "LA"), {
+        //await addDoc(collection(db, "contatos"), {
         addDoc(collection(db, "contatos"), {
             nome: nome,
             email: email,
